@@ -1,0 +1,2 @@
+module ThirdPersonsHelper
+end

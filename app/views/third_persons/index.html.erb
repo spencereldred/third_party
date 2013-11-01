@@ -1,0 +1,9 @@
+
+
+
+<%# @stuffs.inspect %>
+<% @stuffs.each do |stuff| %>
+   <%= stuff.user[:name] %> <%=stuff.id %><%= stuff.text %></br>
+<% end %>
+
+<div id="search_results"></div>
