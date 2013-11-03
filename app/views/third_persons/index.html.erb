@@ -1,9 +1,10 @@
+<div>
+  <form action="/tweets" method="get">
+  <input id='search_term' type='text' name='q' placeholder='twitter search' />
+  <input type='submit' />
+</form>
+<hr>
 
+</div>
 
-
-<%# @stuffs.inspect %>
-<% @stuffs.each do |stuff| %>
-   <%= stuff.user[:name] %> <%=stuff.id %><%= stuff.text %></br>
-<% end %>
-
-<div id="search_results"></div>
+<div id="results"></div>
